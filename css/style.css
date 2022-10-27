@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* haeder */
+.header_bar{
+    height: 80px;
+    /* DEBUG */
+    background-color: red;
+}
+
+
+/* main */
+main{
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+/* sidebar */
+.sidebar{
+    height: 100%;
+    width: 300px;
+    background-color:#051e34;
+    color: white;
+    font-size: 30px;
+    padding: 100px 0;
+}
+
+/* main block */
+.main_block{
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+    /* DEBUG */
+    background-color: violet;
+}
+
+.main_bar{
+    width: 100%;
+    height: 300px;
+    background-color: #1b72e8;
+}
+
+
+
+
+
+
+
