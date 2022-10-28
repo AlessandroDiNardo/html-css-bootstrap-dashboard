@@ -39,23 +39,23 @@
             <!-- info -->
             <div class="col-xl-1 col-lg-1 col-md-1 col-1 d-flex justify-content-center align-items-center gap-4 ">
                 <button class="d-lg-block d-none">
-                    <a href="" class="text-dark">
-                        <div><i class="fa-solid fa-bars"></i></div>
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-bars"></i></div>
                     </a>
                 </button>
                 <button class="d-lg-block d-none">
-                    <a href="" class="text-dark">
-                        <div><i class="fa-solid fa-circle-question"></i></div>
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-circle-question"></i></div>
                     </a>
                 </button>
                 <button class="d-lg-block d-none">
-                    <a href="" class="text-dark">
-                        <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-ellipsis-vertical"></i></div>
                     </a>
                 </button>
                 <button>
                     <a href="">
-                        <div class="text-warning"><i class="fa-solid fa-bell"></i></div>
+                        <div class="text-warning info_hover"><i class="fa-solid fa-bell"></i></div>
                     </a>
                 </button>
             </div>
@@ -66,25 +66,25 @@
     <main>
         <!-- sidebar -->
         <section class="sidebar">
-           <div class="container d-flex flex-column justify-content-between">
+           <div class="container d-flex flex-column justify-content-between h-100">
             <!-- sidebar top -->
                 <div class="side_top">
-                    <div class="d-flex justify-content-center mb-4 gap-4 ">
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
                         <div><i class="fa-solid fa-house"></i></div>
                         <div class="d-md-block d-none">Home</div>
                     </div>
-                    <div class="d-flex justify-content-center mb-4 gap-4">
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
                         <div><i class="fa-solid fa-chart-simple"></i></div>
                         <div class="d-md-block d-none">Stats</div>
                     </div>
-                    <div class="d-flex justify-content-center mb-4 gap-4">
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
                         <div><i class="fa-solid fa-signal"></i></i></div>
                         <div class="d-md-block d-none">Signal</div>
                     </div>
                 </div>
             <!-- sidebar bottom -->
-                <div class="side_bottoms">
-                    <div class="d-flex justify-content-center gap-4">
+                <div class="side_bottoms mb-4">
+                    <div class="d-flex justify-content-center gap-4 hover_info">
                         <div><i class="fa-solid fa-gear"></i></div>
                         <div class="d-md-block d-none">Admin</div>
                     </div>
@@ -117,110 +117,133 @@
                 </div>
            </div>
            <!-- text main -->
-           <div class="ms_col_main d-lg-flex d-md-block p-4 gap-5">
+           <div class=" d-lg-flex d-md-block p-4 gap-5">
             <!-- class col -->
                 <div class="flex-row">
-                    <div class="ms_class_col mb-4 col-12">
+                    <div class="ms_class_col mb-3 col-12">
                         <div class="bar_class_col">
                             <h2 class="">Prossime classi</h2>
                             <button class="btn_plus">+</button>
                         </div>
-                        <div class="bord_col p-5">
+                        <div class="bord_col p-4">
                             <div class="d-flex row">
                                 <div class="col-6 fw-bold">Nome</div>
-                                <div class="col-6 d-flex justify-content-around fw-bold mb-4">
+                                <div class="col-6 d-flex justify-content-around fw-bold mb-3">
                                     <div>Data inizio</div>
                                     <div>ROI</div>
                                     <div>Stato</div>
                                     <div>Azioni</div>
                                 </div>
-                                <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 75
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>15 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-success rounded p-2">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 76
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>16 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 77
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>17 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-warning rounded p-1">Process</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 78
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>18 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 79
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>19 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-danger rounded p-1">Failed</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 80
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>20 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 81
                                 </div>
-                                <div class="col-6 d-flex justify-content-around mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
                                     <div>21 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-danger rounded p-1">Failed</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
-                                <div class="col-6">
+                                <div class="col-6 align-items-center">
                                     <span class="code_font"><i class="fa-solid fa-code"></i></span>
                                     Classe 82
                                 </div>
-                                <div class="col-6 d-flex justify-content-around gap-3 mb-4">
+                                <div class="col-6 d-flex justify-content-around align-items-center gap-3 mb-3">
                                     <div>22 Feb 2021</div>
                                     <div>20%</div>
-                                    <div>Data inizio</div>
-                                    <div>Data inizio</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
                                 </div>
                                 <hr>
                             </div>
@@ -269,7 +292,7 @@
                 <!-- right side bottom col -->
                 <div class="flex-row">
                     <!-- todo col -->
-                    <div class="ms_todo_col mb-5">
+                    <div class="ms_todo_col mb-4">
                         <div class="todo_bar_col">
                             <h2>Todo</h2>
                         </div>
