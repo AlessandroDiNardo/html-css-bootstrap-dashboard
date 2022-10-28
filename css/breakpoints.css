@@ -1,13 +1,4 @@
-/* sidebar */
-@media screen and (max-width: 767px) {
 
-    .sidebar{
-        width: 100px;
-    }
-
-}
-
-/* main block */
 @media screen and (max-width: 1827px) {
     
     .ms_class_col, .ms_faq_col{
@@ -84,25 +75,26 @@
 
 @media screen and (max-width: 992px) {
 
+    .sidebar{
+        width: 100px;
+    }
+
     /* main bar */
     .main_bar{
         height: 300px;
     }
     
     .ms_class_col, .ms_faq_col{
-        width: 700px;
+        width: 800px;
     }
 
     .ms_todo_col, .ms_data_users_col{
-        width: 700px;
+        width: 800px;
     }
 }
 
 @media screen and (max-width: 768px) {
     
-    .ms_class_col{
-        
-    }
 
     .ms_class_col, .ms_faq_col{
         width: 400px;
